@@ -25,7 +25,7 @@ export const performComparison = async (file1: File, file2: File): Promise<Compa
   // 3. SOLUSI FINAL: Memaksa penggunaan versi API 'v1' untuk menghindari error 404
   // Ini akan memperbaiki masalah "models/gemini-1.5-flash is not found for API version v1beta"
   const model = genAI.getGenerativeModel(
-    { model: "gemini-1.5-flash" },
+    { model: "gemini-1.5-flash-latest" },
     { apiVersion: "v1" } 
   );
 
