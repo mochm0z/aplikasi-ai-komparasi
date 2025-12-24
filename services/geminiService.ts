@@ -22,7 +22,7 @@ export const performComparison = async (file1: File, file2: File): Promise<Compa
   // MENGGUNAKAN GEMINI-PRO (Versi 1.0)
   // Model ini paling stabil dan didukung di hampir semua wilayah
   const model = genAI.getGenerativeModel(
-    { model: "gemini-pro" }, 
+    { model: "gemini-pro-vision" }, 
     { apiVersion: "v1" }
   );
 
