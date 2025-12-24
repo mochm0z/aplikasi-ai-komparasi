@@ -1,0 +1,5 @@
+{
+  "name": "CompareAI - Intelligent Document & Image Comparison",
+  "description": "A sophisticated AI-powered tool that performs side-by-side comparative analysis of images and PDFs, highlighting matches, discrepancies, and key differences using the latest Gemini Pro vision models.",
+  "requestFramePermissions": []
+}
